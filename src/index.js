@@ -10,7 +10,7 @@ app.use(cors())
 app.use('/api',router)
 app.use('/',(req,res)=>{
     res.json({
-        author: "MastayY",
+        author: "RexxzynXD",
         routes: {
             home: "/home",
             schedule: "/schedule",
